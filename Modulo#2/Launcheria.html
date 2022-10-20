@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Launcheria</title>
+</head>
+
+
+<body>
+    <header>
+        <h1>Launcheria, espacial para ustedes</h1>
+    </header>
+    
+    <img src="./img/Logo-Launcheria.png" alt="Logo-Launcheria">
+
+    <hr>
+
+    <section>
+        <div>
+            <h2>Menu</h2>
+            <div><img src="./img/burrito-menu.jpg" alt="burrito-fondo-menu"></div>  
+            <div><img src="./img/tacos-menu.jpg" alt="tacos-fondo-menu"></div>
+        </div>
+        
+        <hr>
+        <h3>Tacos</h3>
+        
+        <ul>
+            <li>Bistec ............................ $15</li>
+            <li>Pastor ............................ $15</li>
+            <li>Tripa ............................. $15</li>
+            <li>Suadero ........................... $15</li>
+            <li>Campechano ........................ $15</li>
+        </ul>
+        <p>-------Todos incluyen cilantro y cebolla-------</p>
+
+        <hr>
+
+        <h3>Burritos</h3>
+        <dl>
+
+            <dt>Normal ........................ $50</dt>
+            <dd>Frijoles, lechuga, carne(de su eleccion) y queso</dd>
+            <dt>Campechano ........................ $65</dt>
+            <dd>Frijoles, lechuga, queso, pastor, chorizo o bitec</dd>
+            <dt>Especial ........................ $75</dt>
+            <dd>Frijoles, lechuga, pastor, bitec, chorizo, guacamole y queso</dd>
+            <dt>Hawaillano ........................ $65</dt>
+            <dd>Frijoles, lechuga, pastor, piña y queso</dd>
+            <p>---------------El burrito usa tortilla de la mas grande-----------------</p>
+        </dl>
+        <hr>
+</section>
+
+<section>
+    <h2>Ubicacion</h2>
+    <h3>Sucursal</h3>
+
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Ubicacion</th>
+            <th>Horarios</th>
+        </tr>
+        <tr>
+            <td>Centro</td>
+            <td><a href="https://goo.gl/maps/nrcNT7cdqAsbuqbDA" target="_blank">Antonia Peña 180, Morelia</a></td>
+            <td>L - D 24H</td>
+        </tr>
+        <tr>
+            <td>Norte</th>
+            <td><a href="https://goo.gl/maps/nrcNT7cdqAsbuqbDA" target="_blank">Antonia Peña 180, Morelia</a></td>
+            <td>L - S 3pm - 3am</td>
+        </tr>
+    </table>
+    <hr> 
+</section>
+
+<section>
+    <h2>Pedidos</h2>
+    <h3>Haz tu pedido aqui</h3>
+    
+    <form action="">
+        <p>Elige tu taqueria</p>
+        <select>
+          <option value="Centro">Centro</option>
+          <option value="Centro">Norte</option>
+        </select>
+
+        <p>Elige tus tacos</p>
+        <input type="checkbox" name="Bitec" id="Bistec" value="Bistec">
+        <label for="Bitec">Bistec</label>
+        <input type="number" id="BistecNumber" name="BitecNumber" placeholder="¿Cuantos?">
+        <br>
+        <input type="checkbox" name="Pastor" id="Pastor" value="Pastor">
+        <label for="Pastor">Pastor</label>
+        <input type="number" id="PasrtorNumber" name="PastorNumber" placeholder="¿Cuantos?">
+        <br>
+        <input type="checkbox" name="Tripa" id="Tripa" value="Tripa">
+        <label for="Tripa">Tripa</label>
+        <input type="number" id="TripaNumber" name="TripaNumber" placeholder="¿Cuantos?">
+        <br>
+        <input type="checkbox" name="Suadero" id="Suadero" value="Suadero">
+        <label for="Suadero">Suadero</label>
+        <input type="number" id="SuaderoNumber" name="SuaderoNumber" placeholder="¿Cuantos?">
+        <br>
+        <input type="checkbox" name="Campechano" id="Campechano" value="Campechano">
+        <label for="Campechano">Campechano</label>
+        <input type="number" id="CampechanoNumber" name="CampechanoNumber" placeholder="¿Cuantos?">
+        <br>
+
+        <br><br>
+        <label for="Nombre">Nombre:</label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="¿Como te llamas?">
+
+        <br><br>
+        <label for="Nombre">Telefono:</label><br>
+        <input type="text" id="Telefono" name="Telefono" placeholder="¿Tu numero telefonico?">
+
+        <br><br>
+        <label for="Nombre">Direccion:</label><br>
+        <input type="text" id="Direccion" name="Direccion" placeholder="¿Cual es tu ubicacion?">
+
+        <br><br>
+
+        <button type="submit">Enviar pedido</button>
+        <br><br>
+    </form>
+</section>
+
+
+
+
+</body>
+<footer></footer>
+</html>
